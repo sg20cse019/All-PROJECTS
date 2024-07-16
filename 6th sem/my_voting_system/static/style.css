@@ -1,0 +1,194 @@
+/* ... Previous styles ... */
+
+/* Additional styles */
+
+/* Header and container */
+.header {
+    background-color: #3498db;
+    padding: 20px;
+    animation: fadeIn 1s;
+}
+
+/* Animated heading */
+.header h1 {
+    font-size: 50px;
+    color: white;
+    animation: fadeInDown 1.5s;
+}
+
+.container {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    animation: fadeIn 1s;
+}
+
+/* Radio options */
+.radio-group {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.radio-option {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    color: #34495e;
+    cursor: pointer;
+    font-size: 50px;
+}
+
+/* Increase font size for "Choose an option" label */
+.form-label {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+/* Vote button */
+.vote-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 50px;
+    animation: pulse 2s infinite;
+}
+
+.vote-button:hover {
+    background-color: #c0392b;
+    transform: scale(1.05);
+    animation: none;
+}
+
+/* Result wrapper */
+.result-wrapper {
+    margin-top: 40px;
+}
+
+/* Result card */
+.result-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    animation: slideUp 1s;
+}
+
+/* Result title */
+.result-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+/* Result list */
+.result-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Result item */
+.result-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.result-label {
+    flex: 1;
+}
+
+.result-count {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+/* Background animation */
+.background-animation {
+    animation: colorfulBackground 20s infinite;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+/* Keyframe animations */
+@keyframes backgroundAnimation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes slideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInDown {
+    0%, 100% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+@keyframes colorfulBackground {
+    0% {
+        background: linear-gradient(-45deg, #FF6B6B, #FFA16A, #FFE66D, #8CE07F);
+    }
+    25% {
+        background: linear-gradient(-45deg, #8CE07F, #FF6B6B, #FFA16A, #FFE66D);
+    }
+    50% {
+        background: linear-gradient(-45deg, #FFE66D, #8CE07F, #FF6B6B, #FFA16A);
+    }
+    75% {
+        background: linear-gradient(-45deg, #FFA16A, #FFE66D, #8CE07F, #FF6B6B);
+    }
+    100% {
+        background: linear-gradient(-45deg, #FF6B6B, #FFA16A, #FFE66D, #8CE07F);
+    }
+}

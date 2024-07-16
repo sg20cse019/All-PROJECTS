@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>HTML projects for students</title>
+<link rel="icon" type="image/x-icon" href="navicon.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  /* Global Styles */
+  body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .container {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  .center {
+    display: block;
+    margin: 0 auto;
+  }
+  .button {
+    border-radius: 4px;
+    background-color: #0693F6;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  .button:hover span {
+    padding-right: 25px;
+  }
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .fixed-header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px 10px;
+    background-color: #0693F6;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 25px;
+    display: inline-block;
+  }
+  .project-section {
+    font-size: 3vw;
+    font: 1.4em/1.6em sans-serif;
+    text-align: center;
+    margin-top: 40px;
+  }
+  .project-image {
+    width: 50%;
+    border: solid black;
+    margin: 0 auto;
+  }
+  .project-description {
+    font-size: 2vw;
+    font: 1.4em/1.6em sans-serif;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+  <div class="fixed-header">
+    <nav>
+      <a href="index.html"><b>Home</b></a>
+      <a href="help.html"><b>Help</b></a>
+      <a href="about.html"><b>About</b></a>
+      <a href="terms.html"><b>Terms</b></a>
+    </nav>
+  </div>
+  <div class="container">
+    <section class="project-section">
+      <h1><b>1. 3D CHESS MASTER GAME</b></h1>
+      <center>
+        <img src="3dchess.png" alt="3D Chess" class="project-image center">
+      </center>
+      <p class="project-description">
+        <!-- Your project description here -->
+      </p>
+      <center>
+        <a class="button" href="your-link-here"><span>File Link</span></a>
+      </center>
+    </section>
+    
+    <!-- Repeat the above structure for other projects -->
+    
+    <section class="project-section">
+      <h1><b>10. QUIZ PROJECT</b></h1>
+      <center>
+        <img src="quiz.png" alt="Quiz" class="project-image center">
+      </center>
+      <p class="project-description">
+        <!-- Your project description here -->
+      </p>
+      <center>
+        <a class="button" href="your-link-here"><span>File Link</span></a>
+      </center>
+    </section>
+  </div>
+  <center>
+    <p>
+      <b>Is this website helpful to you?</b><br>
+      Please give us a like or share your feedback to help us improve.
+    </p>
+    <a href="https://youtube.com/channel/your-channel-link" class="fa fa-youtube"></a>
+    <a href="https://twitter.com/your-twitter-link" class="fa fa-twitter"></a>
+    <a href="gmail.html" class="fa fa-google"></a>
+    <a href="https://instagram.com/your-instagram-link" class="fa fa-instagram"></a>
+  </center>
+  <img align="right" src="pig.png" width="150" height="150">
+</body>
+</html>

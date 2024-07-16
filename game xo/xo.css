@@ -1,0 +1,13 @@
+.table-container {
+    text-align: center; 
+    margin: 0 auto; 
+    font-size: 50px;
+}
+.xotable {
+    padding: 50px;
+    border: 2px solid black;
+}
+p{
+    font-size: 150px;
+}
+    

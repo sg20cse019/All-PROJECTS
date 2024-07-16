@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="xo.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>tic tac toe </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div class="container">
+        <div class="jumbotron">
+  <h1>LOKI DID this! </h1>
+  <p><a class="btn btn-primary btn-lg" onclick="refreshPage()"
+     href="xo.html" role="button">Restart</a></p>
+</div>
+    <table>
+        <tr >
+            <td class="xotable" id="cell" onclick="writeXO(this)"> </td>
+            <td class="xotable" id="cell" onclick="writeXO(this)"> </td>
+            <td class="xotable" id="cell" onclick="writeXO(this)"> </td>
+        </tr>
+        <tr>
+            <td class="xotable" id="cell" onclick="writeXO(this)"> </td>
+            <td class="xotable" id="cell" onclick="writeXO(this)"> </td>
+            <td class="xotable" id="cell" onclick="writeXO(this)"> </td>
+        </tr>
+        <tr>
+            <td class="xotable" id="cell" onclick="writeXO(this)"> </td>
+            <td class="xotable" id="cell" onclick="writeXO(this)"> </td>
+            <td class="xotable" id="cell" onclick="writeXO(this)"> </td>
+        </tr>
+    </table>
+    </div>
+        <script>
+        let clickCount = 0;
+            function writeXO(cell) {
+                if (clickCount % 3 === 0) {
+                    cell.textContent = 'X';
+                } else if (clickCount % 3 === 1) {
+                    cell.textContent = 'O';
+                } else {
+                    cell.textContent = '';
+                }
+                clickCount++;
+            }
+            if (cell[0] == 'X' && cell[1] == 'X' && cell[2] == 'X') {
+                winner.textContent = "x wins";
+            } else if (cell[0] == 'O' && cell[1] == 'O' && cell[2] == 'O') {
+                winner.textContent = "o wins";
+            } else {
+                winner.textContent = "draw";
+            }
+            function refreshPage() {
+            location.reload();
+        }
+        </script>
+    </body>
+</html>
