@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Play Fantasy Sports & Win Cash Prizes on Dream11 App | Dream11</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="./output.css" rel="stylesheet">
+</head>
+
+
+<body>
+  <div class="div1">
+    <nav>
+      <div id="menuicon"> ☰ </div>
+      <div id="logo"><img src="./assets/logo-white.png" alt=""></div>
+      <div id="language-btn">
+        <select id="btn-style" onchange="languageSelectionChangeNew()">
+          <option class="language" value="en-US">English</option>
+          <option class="language" value="hi-IN">हिंदी - Hindi</option>
+        </select>
+      </div>
+    </nav>
+
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="./assets/img1.webp" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="./assets/img2.webp" style="width:800px; height: 660px;">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="./assets/img3.webp" style="width:100%">
+      </div>
+
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+      <div class="div2">
+        <div class="banner_title">Download the official Dream11 app</div>
+        <iframe id="send-sms-iframe" class="send-sms-iframe" width="430" height="60" title="Iframe Example"
+          src="https://d13ir53smqqeyp.cloudfront.net/d11-static-pages/send-sms-2024.html"
+          style="border:none; "></iframe>
+      </div>
+    </div>
+    <div class="div3">
+      <h1 class="div3text">Official <span>Partner</span></h1>
+      <div class="div3_1">
+        <div class="div3logo">
+          <img src="https://cdnflags.dream11.com/d11-static-pages/images/partner-supersmashkfc-4.webp"
+            onerror="javascript:this.src='https://cdnflags.dream11.com/d11-static-pages/images/partner-supersmashkfc-4.png'"
+            width="113" height="112" loading="lazy" alt="Dream11 Winners">
+        </div>
+        <div class="div3logo">
+          <img src="https://cdnflags.dream11.com/d11-static-pages/images/partner-newzealandcricket-5-new.webp"
+            onerror="javascript:this.src='https://cdnflags.dream11.com/d11-static-pages/images/partner-newzealandcricket-5-new.png'"
+            width="113" height="112" loading="lazy" alt="Dream11 Winners">
+        </div>
+
+        <div class="div3logo">
+          <img src="https://cdnflags.dream11.com/d11-static-pages/images/partner-herocplt20-7-new.webp"
+            onerror="javascript:this.src='https://cdnflags.dream11.com/d11-static-pages/images/partner-herocplt20-7-new.png'"
+            width="113" height="112" loading="lazy" alt="Dream11 Winners">
+        </div>
+        <div class="div3logo">
+          <img src="https://cdnflags.dream11.com/d11-static-pages/images/partner-hundred-8.webp"
+            onerror="javascript:this.src='https://cdnflags.dream11.com/d11-static-pages/images/partner-hundred-8.png'"
+            width="113" height="112" loading="lazy" alt="Dream11 Winners">
+        </div>
+
+      </div>
+    </div>
+
+    <div class="div4">
+      <h1>It's easy to start playing <span>on Dream11</span></h1>
+
+      <div class="bluetext">
+        Play Fantasy Cricket on Dream11 and win big!</div>
+      <div class="toflex">
+        <div class="textnormal">
+          Enter into the thrilling world of Fantasy sports, a strategy-based online sports game wherein you
+          can
+          create a virtual team of real players playing in real life matches. Create your team to win points
+          based
+          on all the players' performance in a live game.
+        </div>
+      </div>
+
+      <div class="how_to_play_box">
+
+        <div class="right_steps_box">
+          <ul>
+            <li>
+              <span class="step_number">1</span>
+              <div class="title_img_box">
+                <div>
+                  <div class="step_title_box">Select A Match</div>
+                </div>
+                <div>
+                  <div class="winning_step_img">
+                    <img src="https://cdnflags.dream11.com/d11-static-pages/images/winning_step_1-22.webp"
+                      onerror="javascript:this.src='https://cdnflags.dream11.com/d11-static-pages/images/winning_step_1-22.png'"
+                      width="298" height="144" loading="lazy" alt="Dream11 MI CSK Match" class="stepsimg">
+                  </div>
+                </div>
+              </div>
+              <div class="step_title">Choose an upcoming match that you want to play</div>
+            </li>
+
+            <li>
+              <span class="step_number">2</span>
+              <div class="title_img_box">
+                <div>
+                  <div class="step_title_box">Create Team</div>
+                </div>
+                <div>
+                  <div class="winning_step_img">
+                    <img src="https://cdnflags.dream11.com/d11-static-pages/images/winning_step_new2.webp"
+                      onerror="javascript:this.src='https://cdnflags.dream11.com/d11-static-pages/images/winning_step_new2.png'"
+                      width="300" height="154" loading="lazy" alt="Dream11 MI CSK Players" class="stepsimg">
+                  </div>
+                </div>
+              </div>
+              <div class="step_title">Use your skills to pick the right players</div>
+            </li>
+
+
+            <li>
+              <span class="step_number">3</span>
+              <div class="title_img_box">
+                <div>
+                  <div class="step_title_box">Join Contests</div>
+                </div>
+                <div>
+                  <div class="winning_step_img">
+                    <img src="https://cdnflags.dream11.com/d11-static-pages/images/winning_step_new4.webp"
+                      onerror="javascript:this.src='https://cdnflags.dream11.com/d11-static-pages/images/winning_step_new4.png'"
+                      width="300" height="140" loading="lazy" alt="Dream11 Contest" class="stepsimg">
+                  </div>
+                </div>
+              </div>
+              <div class="step_title">Choose between different contests and compete</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <section class="how-to-play-video">
+        <div class="container">
+          <div class="watch_video_box">
+            <div class="universal_heading">How to <span style=" color: #e10000;">Play</span></div>
+            <p class="para2">Ready to challenge other sports fans? Watch this video to learn how to play on Dream11 and
+              get started now. Compete with sports fans, make a perfect Dream11 team with the best combination of
+              players as per your knowledge and skill and win big.</p>
+            <div class="play_video">
+              <div id="youtube_img_wrap" onclick="displayIframe()"><img id="youtube_img"
+                  src="https://cdnflags.dream11.com/d11-static-pages/images/how_to_Play_22_sep.webp"
+                  onerror="javascript:this.src='https://cdnflags.dream11.com/d11-static-pages/images/how_to_Play_22_sep.png'"
+                  style=" max-width: 463px; width: 100%; " width="463" height="258" alt="How to play hindi mai"
+                  loading="lazy"></div>
+              <div id="iframeDisplay"></div>
+            </div>
+
+            <div class="container">
+              <div class="review_rating_mobile_box">
+                <div class="universal_heading">Reviews &amp; <span>Rating</span></div>
+              </div>
+
+              <div class="carousel_box">
+                <div class="carousel_inner_box">
+                  <div class="slide">
+                    <div class="top_slide_box">
+                      <div class="user_img">
+                        <div class="user_img_inner">
+
+                          <img src="./Dream11_files/deepBhathronji.webp"
+                            onerror="javascript:this.src='https://cdnflags.dream11.com/d11-static-pages/images/deepBhathronji.png'"
+                            width="144" height="144" loading="lazy" alt="Dream11 Winners">
+                        </div>
+                      </div>
+                      <div class="user_name">Deep Bhathronji</div>
+                    </div>
+                    <div class="middle_user_info_box">
+                      <div class="left_user_info">
+                        <div class="winner_type">Mega Contest Winner</div>
+                        <div class="match_winner">IND vs AUS</div>
+                      </div>
+                      <div class="right_user_info_box">
+                        <div class="winning_amout">
+                          ₹1 Crore
+                        </div>
+                        <div class="winning">WINNINGS</div>
+                      </div>
+
+                    </div>
+                    <div class="bottom_user_comment" data-nosnippet="">When I started to play, I took my time to analyze
+                      players and match conditions. I also regularly studied match-ups and pitch conditions. You too can
+                      put your mind to work and play on Dream11.</div>
+                  </div>
+
+                  <div class="slide">
+                    <div class="top_slide_box">
+                      <div class="user_img">
+                        <div class="user_img_inner">
+                          <img src="./Dream11_files/AnandSinghBhadauriya.webp"
+                            onerror="javascript:this.src='https://cdnflags.dream11.com/d11-static-pages/images/AnandSinghBhadauriya.png'"
+                            width="144" height="144" loading="lazy" alt="Dream11 Winners">
+                        </div>
+                      </div>
+                      <div class="user_name">Anand Singh Bhadauriya</div>
+                    </div>
+                    <div class="middle_user_info_box">
+                      <div class="left_user_info">
+                        <div class="winner_type">Mega Contest Winner</div>
+                        <div class="match_winner">NED vs AFG</div>
+                      </div>
+                      <div class="right_user_info_box">
+                        <div class="winning_amout">
+                          ₹1.5 Crores
+                        </div>
+                        <div class="winning">WINNINGS</div>
+                      </div>
+
+                    </div>
+                    <div class="bottom_user_comment" data-nosnippet="">I thought that I could achieve something using my
+                      cricket skills and knowledge. In 2018, I created my first team on Dream11 in a private contest,
+                      and I won around ₹10,000. After that, I gained full trust in Dream11.</div>
+                  </div>
+
+                  <div class="slide">
+                    <div class="top_slide_box">
+                      <div class="user_img">
+                        <div class="user_img_inner">
+                          <img src="./Dream11_files/veerpal.webp"
+                            onerror="javascript:this.src='https://cdnflags.dream11.com/d11-static-pages/images/veerpal.png'"
+                            width="144" height="144" loading="lazy" alt="Dream11 Winners">
+                        </div>
+                      </div>
+                      <div class="user_name">Veerpal</div>
+                    </div>
+                    <div class="middle_user_info_box">
+                      <div class="left_user_info">
+                        <div class="winner_type">Mega Contest Winner</div>
+                        <div class="match_winner">IND vs SA</div>
+                      </div>
+                      <div class="right_user_info_box">
+                        <div class="winning_amout" style="width: 100px;">
+                          ₹1 Crore
+                        </div>
+                        <div class="winning">WINNINGS</div>
+                      </div>
+
+                    </div>
+                    <div class="bottom_user_comment" data-nosnippet="">I started playing a year back and played
+                      regularly during the World Cup this year. I’ve always been interested in cricket, which helped me
+                      play my best and use my skills too!</div>
+                  </div>
+                </div>
+              </div>
+
+              <section class="rating_section">
+                <div class="rating-star-box">
+                  <div class="rating-block">
+                    <div class="rating-block__text">App Rating</div>
+                    <div class="rating-block__star">
+                      <ul>
+                        <li>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor"
+                            class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
+                            </path>
+                          </svg>
+                        </li>
+                        <li>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor"
+                            class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
+                            </path>
+                          </svg>
+                        </li>
+                        <li>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor"
+                            class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
+                            </path>
+                          </svg>
+                        </li>
+                        <li>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor"
+                            class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
+                            </path>
+                          </svg>
+                        </li>
+                        <li>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor"
+                            class="bi bi-star-half" viewBox="0 0 16 16">
+                            <path
+                              d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z">
+                            </path>
+                          </svg>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="star-rating-number">
+                      <div class="star-rating-number__rating">4.7</div>
+                      <div class="star-rating-number__bar"></div>
+                      <div class="star-rating-number__number">2,750,143 ratings</div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+
+            <div class="all_download">
+              <div class="download_heading">
+                Get the app and <span>Win Crores</span>
+              </div>
+              <div class="download">
+                <div class="download_mobile">
+
+                  <img src="https://cdnflags.dream11.com/d11-static-pages/images/referral-banner-6k-cb.webp"
+                    onerror="javascript:this.src='https://cdnflags.dream11.com/d11-static-pages/images/referral-banner-6k-cb.png'"
+                    width="540" height="336" style="margin-left: 30px;" loading="lazy" alt="Dream11 App">
+
+                </div>
+                <div class="download_how">
+
+                  <ul class="win_point">
+                    <li>
+                      <span class="win_info_icon">
+                        <img src="https://cdnflags.dream11.com/d11-static-pages/images/win_crore_1.webp"
+                          onerror="javascript:this.src='https://cdnflags.dream11.com/d11-static-pages/images/win_crore_1.png'"
+                          width="40" height="40" loading="lazy" alt="Play">
+                      </span>
+                      <span class="win_info_info_box">Play with over 20 Crore Dream11 users or <a  style="text-decoration: none;"
+                          href="https://www.dream11.com/private-contest" id="href">create your own private
+                          contest</a></span>
+                    </li>
+                    <li>
+                      <span class="win_info_icon">
+                        <img src="https://cdnflags.dream11.com/d11-static-pages/images/win_crore_3.webp"
+                          onerror="javascript:this.src='https://cdnflags.dream11.com/d11-static-pages/images/win_crore_3.png'"
+                          width="40" height="40" loading="lazy" alt="Refer your friend">
+                      </span>
+                      <span class="win_info_info_box">Invite your friends &amp; collect big rewards</span>
+                    </li>
+                    <li>
+                      <span class="win_info_icon">
+                        <img src="https://cdnflags.dream11.com/d11-static-pages/images/win_crore_2.webp"
+                          onerror="javascript:this.src='https://cdnflags.dream11.com/d11-static-pages/images/win_crore_2.png'"
+                          width="40" height="40" loading="lazy" alt="Chat &amp; Groups">
+                      </span>
+                      <span class="win_info_info_box">Play more, earn DreamCoins &amp; get exciting rewards</span>
+                    </li>
+
+                    <li>
+                      <img src="https://cdnflags.dream11.com/d11-static-pages/images/d11_playstore.webp" onerror="javascript:this.src='https://cdnflags.dream11.com/d11-static-pages/images/d11_playstore_2022.png'" width="156" height="50" loading="lazy" alt="Download Android App" style="margin-top: 15px;">
+                    <!-- </li>
+
+                    <li> -->
+                      <img src="https://cdnflags.dream11.com/d11-static-pages/images/d11_appstore.webp"
+                        onerror="javascript:this.src='https://cdnflags.dream11.com/d11-static-pages/images/d11_appstore.png'"
+                        width="156" height="50" loading="lazy" alt="Download iOS app" style="margin-top: 15px;">
+                    </li>
+
+            
+                    <li>
+                    <div style="display: flex;">  
+                      <img
+                        src="https://cdnflags.dream11.com/d11-static-pages/images/download_qr_small_Playstore_QR.webp"
+                        onerror="javascript:this.src='https://cdnflags.dream11.com/d11-static-pages/images/download_qr_small_Playstore_QR.png'"
+                        width="120" height="120" loading="lazy" alt="download app barcode" style="margin-top: 15px;">
+                    <!-- </li>
+                    <li> -->
+                      <div class="barcode_info">
+                        <div class="barcode_info_inner" style="width: 210px; margin-left: 14px;">Scan the QR Code to download the
+                                              Fantasy
+                            Cricket App</div></div>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="multiple_sports">
+        <h1 >Popular <span style="color: #e10000;">
+        Fantasy Sports</span> in India</h1>
+        <p>Fantasy sports is a platform for online gaming where fantasy players create a virtual team of real sports players. Dream11 gives you plenty of options to create your fantasy sports team for the sport you would like to play and win! Here are the most popular fantasy sports leagues to play.</p>
+          <div style="display: flex; margin-right: 200px;">
+              <div class="owl-item active" style="width: 380px; margin-right: 10px; background-color:#f5f5f6;"><div><div class="sportBox">
+                <div class="sportBoxTitle">
+                  <div class="cricket-sm">  </div>Fantasy Cricket</div>
+                <div class="para" style="position:relative;top:-14px">Play one of the biggest cricket leagues, the TATA IPL 2024. Use your cricketing knowledge and join leagues like the Big Bash League, Caribbean Premier League and many others.</div>
+              </div></div></div>
+
+            
+              
+              <div class="owl-item active" style="width: 380px; margin-right: 10px; background-color:#f5f5f6;"><div><div class="sportBox">
+                <div class="sportBoxTitle">
+                  <div class="cricket-sm">  </div>Fantasy Cricket</div>
+                <div class="para" style="position:relative;top:-14px">Play one of the biggest cricket leagues, the TATA IPL 2024. Use your cricketing knowledge and join leagues like the Big Bash League Caribbean Premier League and many others.</div>
+              </div></div></div>
+
+              <div class="owl-item active" style="width: 380px; margin-right: 10px; background-color:#f5f5f6;"><div><div class="sportBox">
+                <div class="sportBoxTitle">
+                  <div class="cricket-sm">  </div>Fantasy Cricket</div>
+                <div class="para" style="position:relative;top:-14px">Play one of the biggest cricket leagues, the TATA IPL 2024. Use your cricketing knowledge and join leagues like the Big Bash League, Caribbean Premier League</a> and many others.</div>
+              </div></div></div>
+            </div>
+            </div>
+            </div>
+            <div class="questionshead"><h1>FAQs</h1></div>
+            <div class="questions">
+
+              <div class="dropdownlast"> 
+                <div class="dropdown">
+                  <button onclick="myFunction()" class="dropbtn">What is Fantasy Sport ? </button>
+                  <div id="myDropdown" class="dropdown-content">
+                    <a href="#home">Fantasy sports is a strategy-based online sports game where you can create a virtual team of real players, playing in live matches worldwide. You earn points and win cash prizes based on the performances of these players in actual matches.</a>
+                  </div>
+                </div>
+                <div>h</div>
+                <div class="dropdownlast"> 
+                  <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">What is Fantasy Sport ? </button>
+                    <div id="myDropdown" class="dropdown-content">
+                      <a href="#home">Fantasy sports is a strategy-based online sports game where you can create a virtual team of real players, playing in live matches worldwide. You earn points and win cash prizes based on the performances of these players in actual matches.</a>
+                    </div>
+                  </div>
+                  <div>h</div>
+                  <div class="dropdownlast"> 
+                    <div class="dropdown">
+                      <button onclick="myFunction()" class="dropbtn">What is Fantasy Sport ? </button>
+                      <div id="myDropdown" class="dropdown-content">
+                        <a href="#home">Fantasy sports is a strategy-based online sports game where you can create a virtual team of real players, playing in live matches worldwide. You earn points and win cash prizes based on the performances of these players in actual matches.</a>
+                      </div>
+                    </div>
+                    <div>h</div>
+                    <div class="dropdownlast"> 
+                      <div class="dropdown">
+                        <button onclick="myFunction()" class="dropbtn">What is Fantasy Sport ? </button>
+                        <div id="myDropdown" class="dropdown-content">
+                          <a href="#home">Fantasy sports is a strategy-based online sports game where you can create a virtual team of real players, playing in live matches worldwide. You earn points and win cash prizes based on the performances of these players in actual matches.</a>
+                        </div>
+                      </div>
+                      <div>h</div>
+                      <div class="dropdownlast"> 
+                        <div class="dropdown">
+                          <button onclick="myFunction()" class="dropbtn">What is Fantasy Sport ? </button>
+                          <div id="myDropdown" class="dropdown-content">
+                            <a href="#home">Fantasy sports is a strategy-based online sports game where you can create a virtual team of real players, playing in live matches worldwide. You earn points and win cash prizes based on the performances of these players in actual matches.</a>
+                          </div>
+                        </div>
+                        <div>h</div>
+                        <div class="dropdownlast"> 
+                          <div class="dropdown">
+                            <button onclick="myFunction()" class="dropbtn">What is Fantasy Sport ? </button>
+                            <div id="myDropdown" class="dropdown-content">
+                              <a href="#home">Fantasy sports is a strategy-based online sports game where you can create a virtual team of real players, playing in live matches worldwide. You earn points and win cash prizes based on the performances of these players in actual matches.</a>
+                            </div>
+                          </div>
+                          <div>h</div>
+                          <div class="dropdownlast"> 
+                            <div class="dropdown">
+                              <button onclick="myFunction()" class="dropbtn">What is Fantasy Sport ? </button>
+                              <div id="myDropdown" class="dropdown-content">
+                                <a href="#home">Fantasy sports is a strategy-based online sports game where you can create a virtual team of real players, playing in live matches worldwide. You earn points and win cash prizes based on the performances of these players in actual matches.</a>
+                              </div>
+                            </div>
+            </div>
+
+
+      <div class="final_footer">
+        <div class="footer">
+          <footer id="footer_box">
+            <div class="footer_top">
+              <div class="footer_container">
+                <div class="footer_inner">
+                  <div class="col1">
+                    <div class="left_col1">
+                      <div class="footer_logo">
+                        <a title="Dream11" href="https://www.dream11.com" style="width: 132px; display: inline-block;">
+                          <img src="https://cdnflags.dream11.com/d11-static-pages/landing_page/footer_logo_aug23.png" width="134" height="29.14" alt="" loading="lazy">
+                        </a>
+                      </div>
+                      <div class="footer_social">
+                        <ul>
+                          <li>
+                            <a title="Facebook" href="https://www.facebook.com/Dream11/" target="_blank">
+                              <img src="https://cdnflags.dream11.com/d11-static-pages/images/facebook1.webp" onerror="javascript:this.src='https://cdnflags.dream11.com/d11-static-pages/images/facebook1.png'" width="32" height="32" alt="" loading="lazy">
+                            </a>
+                          </li>
+                          <li>
+                            <a title="Twitter" href="https://twitter.com/Dream11" target="_blank">
+                              <img src="https://cdnflags.dream11.com/d11-static-pages/images/twitter1.webp" onerror="javascript:this.src='https://cdnflags.dream11.com/d11-static-pages/images/twitter1.png'" width="32" height="32" alt="" loading="lazy">
+                            </a>
+                          </li>
+                          <li>
+                            <a title="Linkedin" href="https://www.linkedin.com/company/dream11/mycompany/" rel="nofollow" target="_blank">
+                              <img src="https://cdnflags.dream11.com/d11-static-pages/images/linkedin1.webp" onerror="javascript:this.src='https://cdnflags.dream11.com/d11-static-pages/images/linkedin1.png'" width="32" height="32" alt="" loading="lazy">
+                            </a>
+                          </li>
+                          <li>
+                            <a title="Youtube" href="https://youtube.com/dream11" target="_blank">
+                              <img src="https://cdnflags.dream11.com/d11-static-pages/images/youtube1.webp" onerror="javascript:this.src='https://cdnflags.dream11.com/d11-static-pages/images/youtube1.png'" width="32" height="32" alt="" loading="lazy">
+                            </a>
+                          </li>
+                          <li>
+                            <a title="Instagram" href="https://www.instagram.com/dream11/" target="_blank">
+                              <img src="https://cdnflags.dream11.com/d11-static-pages/images/instagram.webp" onerror="javascript:this.src='https://cdnflags.dream11.com/d11-static-pages/images/instagram.png'" width="32" height="32" alt="" loading="lazy">
+                            </a>
+                          </li>
+                          
+                          <li>
+                            <a title="Telegram" href="https://t.me//dream11_india" target="_blank">
+                              <img src="https://cdnflags.dream11.com/d11-static-pages/images/telegramlogo.webp" onerror="javascript:this.src='https://cdnflags.dream11.com/d11-static-pages/images/telegramlogo.png'" width="32" height="32" alt="" loading="lazy">
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="right_col1">
+                      <div class="left_link_list">
+                        <ul>
+
+                          <li>
+                            <a href="https://www.dream11.com/fantasy-cricket" target="_blank">Fantasy Cricket</a>
+                          </li>
+                          <li>
+                            <a href="https://www.dream11.com/fantasy-football" target="_blank">Fantasy Football</a>
+                          </li>
+                          <li>
+                            <a href="https://www.dream11.com/fantasy-sports" target="_blank">Fantasy Sports</a>
+                          </li>
+                        
+                          <li>
+                            <a href="/games/how-to-play">How to play</a>
+                          </li>
+                          <li>
+                            <a href="https://play.google.com/store/apps/details?id=com.dream11.fantasy.cricket.football.kabaddi" target="_blank" title="Click here to download fantasy cricket app">Fantasy App Download</a>
+                          </li>
+                         
+                          <li>
+                            <a href="/dream11-team-today">Dream11 Team Today</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="right_link_list">
+                        <ul>
+                          <li>
+                            <a href="https://www.dream11.com/dream11-winners" target="_blank">Dream11 winners</a>
+                          </li>
+                          <li>
+                            <a href="https://www.dream11.com/private-contest" target="_blank">Private Contest</a>
+                          </li>
+                          <li>
+                            <a href="https://www.dreamsports.group/" rel="nofollow" target="_blank">About Us</a>
+                          </li>
+                          <li>
+                            <a href="https://www.dreamsports.group/careers" rel="nofollow" target="_blank">Jobs</a>
+                          </li>
+                          <li>
+                            <a href="https://get.dream11.help/hc/en-us" rel="nofollow" target="_blank">Help &amp; Support</a>
+                          </li>
+                         
+                          <li>
+                            <a href="https://www.dream11.com/about-us/communityguidelines" target="_blank">Community Guidelines</a>
+                          </li>
+          
+                          <li>
+                            <a href="https://tech.dream11.in/?utm_source=dream11_website" target="_blank">Dream11 Tech</a>
+                          </li>
+                          
+                          
+                        </ul>
+                      </div>
+                    </div>
+                    
+                  </div>
+                  
+                  <div class="col2 member-section">
+                    <div class="membership mb44">
+                      <div><a href="https://fifs.in/certificates/dream11/" target="_blank">FOUNDING MEMBER</a></div>
+                      <ul>
+                        
+                        <li>
+                          <a title="Federation of indian fantasy sports" href="https://fifs.in/certificates/dream11/" target="_blank" style="width: 38px; display: inline-block;">
+                            <img src="https://d13ir53smqqeyp.cloudfront.net/d11-static-pages/images/fifs_footer.webp" onerror="javascript:this.src='https://cdnflags.dream11.com/d11-static-pages/images/fifs_footer.png'" width="38" height="47" alt="" loading="lazy">
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="membership">
+                      <div><a title="Fairplay" href="https://www.dream11.com/about-us/fairplay" target="_blank">FAIRPLAY POLICY</a></div>
+                      <ul>
+                        
+                        <li>
+                          <a title="Fairplay" href="https://www.dream11.com/about-us/fairplay" target="_self" style="width: 38px; display: inline-block;">
+                            <img src="https://cdnflags.dream11.com/d11-static-pages/images/fp-logo.webp" onerror="javascript:this.src='https://cdnflags.dream11.com/d11-static-pages/images/fp-logo.png'" width="38" height="47" alt="" loading="lazy">
+                          </a>
+                        </li>
+                      </ul>
+                      
+                    </div>
+                  </div>
+                </div>
+          
+                <div class="office_address">
+                  <div>CORPORATE OFFICE</div>
+                  <div class="address">ONE BKC, Tower A, 12th &amp; 14th Floor, Unit 1201 &amp; 1202 and 1401 &amp; 1402, Plot C-66, G Block, Bandra Kurla Complex, Bandra (East), Mumbai 400 051</div>
+                </div>
+                <div class="disclaimer_box" style="display: none;">
+                  <div>DISCLAIMER</div>
+                  <div class="disclaimer">Unless otherwise explicitly specified, Dream11 is not affiliated in any way to and claims no association, in any capacity whatsoever, with any sports governing bodies and leagues, including, but not limited to the Board of Control for Cricket in India (BCCI) or the Indian Premier League (IPL).</div>
+                </div>
+              </div>
+            </div>
+            <div class="footer_bottom">
+              <div class="container">
+                <ul>
+                  
+                  <li><a href="https://www.dream11.com/about-us/privacypolicy" target="_blank">Privacy Policy</a></li>
+                  <li><a href="https://www.dream11.com/games/fantasy-cricket/termsandconditions" target="_blank">Terms &amp; Conditions</a></li>
+                 
+                </ul>
+              </div>
+      </div>
+      </section>
+
+
+
+      <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) { slideIndex = 1 }
+          if (n < 1) { slideIndex = slides.length }
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex - 1].style.display = "block";
+          dots[slideIndex - 1].className += " active";
+        }
+
+        function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+      </script>
+</body>
+
+</html>
